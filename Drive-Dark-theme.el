@@ -7,8 +7,8 @@
  '(fixed-pitch ((t (:inherit (default)))))
  '(variable-pitch ((t (:family "ProggyCleanTTSZB"))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
- '(highlight ((t (:background "#083039"))))
- '(region ((t (:background "#083039"))))
+ '(highlight ((t (:background "#083039" :foreground "#FFFFFF"))))
+ '(region ((t (:background "#083039" :foreground "#ffffff"))))
  '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "grey50")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "grey70")) (((class color) (min-colors 8) (background light)) (:foreground "green")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow"))))
  '(secondary-selection ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 16) (background light)) (:background "yellow")) (((class color) (min-colors 16) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 8)) (:foreground "black" :background "cyan")) (t (:inverse-video t))))
  '(trailing-whitespace ((((class color) (background light)) (:background "red1")) (((class color) (background dark)) (:background "red1")) (t (:inverse-video t))))
@@ -199,4 +199,3 @@
  '(default ((t (:background "#020D0F" :foreground "#9999BB" :height 130 :width normal :family "ProggyCleanTTSZB")))))
 
 (provide-theme 'Drive-Dark)
-
